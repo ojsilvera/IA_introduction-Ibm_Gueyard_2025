@@ -12,3 +12,6 @@ la pregunta de negocio principal que se elijio corresponde a lo siguiente:
 **Como la tienda aurelion puede realizar una optimización del surtido de productos
 y estrategias de fidelización mediante el análisis integrado de ventas, clientes
 y categorías de productos.**
+
+El equipo fue liderado por enrique parada quien contaba con mas conocimientos y experiencia
+en el area de analisis de datos e inteligencia artificial.
