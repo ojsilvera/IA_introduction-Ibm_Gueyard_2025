@@ -1,0 +1,8 @@
+Correlaciones (pares) con scipy:
+           var1            var2   n  pearson_r    pearson_p  spearman_r   spearman_p
+       cantidad precio_unitario 341  -0.072780 1.799828e-01   -0.069191 2.024776e-01
+       cantidad         importe 341   0.600982 7.364679e-35    0.612251 1.847606e-36
+precio_unitario         importe 341   0.681074 8.208183e-48    0.699346 2.267925e-51
+
+Top city: Rio Cuarto
+t-test top vs resto: t=-0.440, p=0.661077

@@ -1,0 +1,31 @@
+{
+    "fecha_entrenamiento": "20251203_021643",
+    "modelo": "XGBoost",
+    "n_features": 22,
+    "n_samples_train": 274,
+    "n_samples_test": 69,
+    "features_usadas": [
+        "cantidad",
+        "precio_unitario",
+        "mes",
+        "dia_semana",
+        "hora",
+        "antiguedad_dias",
+        "diff_precio",
+        "total_items",
+        "unique_productos",
+        "unique_categorias",
+        "medio_pago_efectivo",
+        "medio_pago_qr",
+        "medio_pago_tarjeta",
+        "medio_pago_transferencia",
+        "ciudad_Alta Gracia",
+        "ciudad_Carlos Paz",
+        "ciudad_Cordoba",
+        "ciudad_Mendiolaza",
+        "ciudad_Rio Cuarto",
+        "ciudad_Villa Maria",
+        "categoria_Alimentos",
+        "categoria_Limpieza"
+    ]
+}

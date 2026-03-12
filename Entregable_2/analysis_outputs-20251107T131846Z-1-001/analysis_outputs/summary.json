@@ -1,0 +1,8 @@
+{
+  "product_col": "id_producto",
+  "city_col": null,
+  "quantity_col": "cantidad",
+  "price_col": "precio_unitario",
+  "sales_col": "importe",
+  "date_col": "fecha"
+}

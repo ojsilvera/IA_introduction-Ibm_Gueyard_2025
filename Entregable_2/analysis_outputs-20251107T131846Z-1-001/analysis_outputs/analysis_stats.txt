@@ -1,0 +1,19 @@
+Análisis de correlación y métricas por ciudad
+Variables consideradas: cantidad, precio_unitario, importe
+
+Resumen de correlaciones (pares):
+           var1            var2   n  pearson_r  pearson_p  spearman_r  spearman_p
+       cantidad precio_unitario 341  -0.072780   0.180819   -0.069191    0.230769
+       cantidad         importe 341   0.600982   0.000999    0.612251    0.000999
+precio_unitario         importe 341   0.681074   0.000999    0.699346    0.000999
+
+Matriz de correlación (archivo): analysis_outputs/correlation_matrix.csv
+
+Métricas por ciudad (archivo): analysis_outputs/city_metrics.csv
+
+Nota: scipy no disponible; no se realizó prueba t (opcional)
+
+Recomendaciones iniciales:
+- Priorizar inventario y promociones en la ciudad con mayor consumo (top city: Rio Cuarto).
+- Revisar margen y rotación para los productos con mayor importe (ver product_aggregation_sales.csv).
+- Considerar campañas de fidelización en ciudades con alto ticket medio pero baja frecuencia.

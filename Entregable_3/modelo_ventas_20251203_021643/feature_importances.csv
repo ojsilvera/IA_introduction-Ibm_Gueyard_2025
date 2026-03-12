@@ -1,0 +1,23 @@
+feature,importance
+cantidad,0.36117932
+precio_unitario,0.2550363
+medio_pago_qr,0.051575884
+total_items,0.03287347
+unique_categorias,0.027973648
+unique_productos,0.027784914
+medio_pago_transferencia,0.025818855
+categoria_Alimentos,0.024857063
+ciudad_Villa Maria,0.021962598
+medio_pago_tarjeta,0.020998348
+categoria_Limpieza,0.020497663
+ciudad_Rio Cuarto,0.01860253
+antiguedad_dias,0.01731165
+dia_semana,0.017303497
+ciudad_Cordoba,0.017021965
+medio_pago_efectivo,0.01563771
+ciudad_Carlos Paz,0.014772329
+mes,0.013793165
+ciudad_Mendiolaza,0.009954001
+ciudad_Alta Gracia,0.005045108
+hora,0.0
+diff_precio,0.0
