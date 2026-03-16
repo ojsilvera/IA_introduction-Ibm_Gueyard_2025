@@ -13,6 +13,9 @@ print(arr)
 # Operaciones con arreglos
 print(arr + 10)  # Suma 10 a cada elemento del arreglo
 print(arr * 2)   # Multiplica cada elemento del arreglo por 2
+# multiplicar dos arreglos
+arr2 = np.array([10, 20, 30, 40, 50])
+print(arr * arr2)  # Multiplica elemento por elemento entre arr y arr2
 # Crear un arreglo bidimensional
 arr_2d = np.array([[1, 2, 3], [4, 5, 6]])
 print(arr_2d)
@@ -51,5 +54,27 @@ print(A_inv)
 # una estructura de datos eficiente y funciones optimizadas para realizar cálculos
 # numéricos.
 
+# quiz
 
+# What is the result of the following operation:
+import numpy as np
+resultado = np.array([1,-1])*np.array([1,1])
+print(resultado)
 
+# array([ 0, 0])
+# array([ 1, -1])
+# 0
+
+# la respuesta correcta es: array([ 1, -1])
+
+# What is the result of the following operation:
+
+import numpy as np
+operacion = np.dot(np.array([1,-1]),np.array([1,1]))
+print(operacion)
+
+# array([0, 0])
+# array([1, -1])
+# 0
+
+# la respuesta correcta es: 0
