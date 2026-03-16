@@ -214,5 +214,82 @@ color="blue"
 # method sell() if it is defined to update that attribute. If car_info() is just
 # for displaying information, it would not be the correct method to change the attribute.
 
+# quiz general
 
+# What is the output of the following lines of code:
 
+x=1
+
+if(x!=1):
+
+    print('Hello')
+
+else:
+
+    print('Hi')
+
+print('Mike')
+
+# Hi Mike
+# Mike
+# Hello Mike
+# The Mike
+
+# The output of the code is: Hi Mike
+
+# What is the output of the following few lines of code?
+
+A = ['1','2','3']
+
+for a in A:
+
+    print(2*a)
+
+# 2 4 6
+# '2' '4' '6'
+# '11' '22' '33'
+# A B C
+
+# The output of the code is: '11' '22' '33' because the elements in the list A
+# are strings, and multiplying a string by 2 concatenates it with itself.
+
+# Consider the function Delta, when will the function return a value of 1
+
+def Delta(x):
+
+    if x==0:
+
+        y=1;
+
+    else:
+
+        y=0;
+
+    return(y)
+
+# When the input is anything but 0.
+# When the input is 1.
+# Never.
+# When the input is 0.
+
+# The function Delta will return a value of 1 when the input is 0, because the
+# condition x == 0 will be true, and y will be set to 1 before being returned.
+
+# What is the correct way to sort the list 'B' using a method? The result should
+# not return a new list, just change the list 'B'.
+
+# B.sort()
+# sort(B)
+# sorted(B)
+# B.sorted()
+
+# The correct way to sort the list 'B' in place is by using the method B.sort().
+# This will sort the list without creating a new list.
+
+# What are the keys of the following dictionary: {'a':1,'b':2}?
+
+# 1,2
+# ;,:
+# a,b
+
+# The keys of the dictionary {'a':1,'b':2} are 'a' and 'b'.
