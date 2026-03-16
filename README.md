@@ -14,4 +14,4 @@ y estrategias de fidelización mediante el análisis integrado de ventas, client
 y categorías de productos.**
 
 El equipo fue liderado por enrique parada quien contaba con mas conocimientos y experiencia
-en el area de analisis de datos e inteligencia artificial.
+en el area de analisis de datos e inteligencia artificial y agentes.
