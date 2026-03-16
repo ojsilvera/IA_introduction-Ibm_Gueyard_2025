@@ -69,5 +69,67 @@ B = ["a", "b", "c"]
 print(B[1:])  # acceso a los elementos de la lista desde el índice 1 hasta el final de la lista
 
 
+# sets
+# los sets son colecciones de elementos únicos y no ordenados
+# creación de un set
+mi_set = {1, 2, 3, 4, 5}
+print(mi_set)
+# acceso a los elementos de un set (no se puede acceder a los elementos de un set por su índice, pero se puede iterar sobre ellos)
+for elemento in mi_set:
+    print(elemento)
+# modificación de un set
+mi_set.add(6)  # agrega un elemento al set
+print(mi_set)
+mi_set.remove(3)  # elimina un elemento del set
+print(mi_set)
+# operaciones con sets
+set_a = {1, 2, 3}
+set_b = {3, 4, 5}
+print(set_a.union(set_b))  # unión de dos sets
+print(set_a.intersection(set_b))  # intersección de dos sets
+print(set_a.difference(set_b))  # diferencia de dos sets
+print(set_a.symmetric_difference(set_b))  # diferencia simétrica de dos sets
 
+# quiz
+
+# What is the result of the following lines of code:
+
+S={'A','B','C'}
+
+U={'A','Z','C'}
+
+U.union(S)
+
+# The result of the code will be a set that contains all the unique elements from both sets S and U. The union of sets S and U will be:
+{'A', 'B', 'C', 'Z'}
+
+# What is the intersection of set S and U?
+
+S={'A','B','C'}
+
+U={'A','Z','C'}
+
+# The intersection of sets S and U will be a set that contains only the elements that are present in both sets. The intersection of sets S and U will be:
+{'A', 'C'}
+
+# dictionaries
+# los diccionarios son colecciones de pares clave-valor
+# creación de un diccionario
+mi_diccionario = {"nombre": "Juan", "edad": 30, "ciudad": "Madrid"}
+print(mi_diccionario)
+# acceso a los elementos de un diccionario
+print(mi_diccionario["nombre"])  # acceso al valor asociado a la clave "nombre"
+print(mi_diccionario.get("edad"))  # acceso al valor asociado a la clave "edad" usando el método get
+# modificación de un diccionario
+mi_diccionario["edad"] = 31  # modificación del valor asociado a la clave "edad"
+print(mi_diccionario)
+mi_diccionario["profesión"] = "Ingeniero"  # adición de un nuevo par clave-valor al diccionario
+print(mi_diccionario)
+# eliminación de un elemento de un diccionario
+del mi_diccionario["ciudad"]  # eliminación del par clave-valor asociado a la clave "ciudad"
+print(mi_diccionario)
+# métodos de los diccionarios
+print(mi_diccionario.keys())  # devuelve una vista de las claves del diccionario
+print(mi_diccionario.values())  # devuelve una vista de los valores del diccionario
+print(mi_diccionario.items())  # devuelve una vista de los pares clave-valor del diccionario
 
