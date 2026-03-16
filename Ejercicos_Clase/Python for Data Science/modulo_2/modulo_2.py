@@ -133,3 +133,22 @@ print(mi_diccionario.keys())  # devuelve una vista de las claves del diccionario
 print(mi_diccionario.values())  # devuelve una vista de los valores del diccionario
 print(mi_diccionario.items())  # devuelve una vista de los pares clave-valor del diccionario
 
+# quiz
+# Consider the following dictionary:
+
+D = {'a':0,'b':1,'c':2}
+
+# What is the result of the following: D.values()?
+# The result of D.values() will be a view object that displays a list of all the
+# values in the dictionary D. In this case, the values are 0, 1, and 2. So the output will be: dict_values([0, 1, 2])
+
+result = D.values()
+print(result)
+
+# Consider the following dictionary:
+# What is the output of the following D['b']? # The output of D['b'] will be the
+# value associated with the key 'b' in the dictionary D. In this case, the value is 1. So the output will be: 1
+
+D = {'a':0,'b':1,'c':2}
+resultKey = D['b']
+print(resultKey)
