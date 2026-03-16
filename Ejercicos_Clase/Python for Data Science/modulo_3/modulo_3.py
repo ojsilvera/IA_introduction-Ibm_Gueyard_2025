@@ -157,4 +157,62 @@ print(f(5, 3, 4))
 # The function f is valid and it takes a variable number of arguments (using *x)
 # and returns the sum of those arguments using the built-in sum() function.
 
+# objects and class
+
+# Class Definition
+# class ClassName:
+#     # class attributes and methods
+# Example:
+class Dog:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def bark(self):
+        return "Woof!"
+my_dog = Dog("Buddy", 3)
+print(my_dog.name)  # Output: Buddy
+print(my_dog.age)   # Output: 3
+print(my_dog.bark()) # Output: Woof!
+
+# objects
+# An object is an instance of a class. It is created using the class constructor and can have its own attributes and methods.
+# Example:
+class Car:
+    def __init__(self, make, model):
+        self.make = make
+        self.model = model
+        self.color = color
+my_car = Car("Toyota", "Corolla", "blue")
+print(my_car.make)  # Output: Toyota
+print(my_car.model) # Output: Corolla
+print(my_car.color) # Output: blue
+
+# quiz
+
+# Using the Class Car in the lab, create a Car object with the following attributes:
+
+make="Honda"
+model="Accord"
+color="blue"
+
+# Car(make="Honda",model="Accord",color="blue")
+# Car("Honda","Accord","blue")
+# Car(model="Accord",make="Honda",color="blue")
+# Car("Accord","Honda","blue")
+
+# The correct way to create a Car object with the given attributes is:
+# Car("Honda","Accord","blue")
+# Car("Accord","Honda","blue")
+
+# From the lab, how would you change the data attribute owner_number ?
+
+# Utilising the method sell().
+# Utilising the method car_info().
+
+# The correct way to change the data attribute owner_number is by utilizing the
+# method sell() if it is defined to update that attribute. If car_info() is just
+# for displaying information, it would not be the correct method to change the attribute.
+
+
 
