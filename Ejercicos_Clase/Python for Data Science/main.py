@@ -58,3 +58,21 @@ print(result)
 op = 3 + 2 * 2
 print(op)  # Esto imprimirá 7, que es el resultado de la operación 3+2*2 (siguiendo el orden de operaciones)
 
+# In Python, if you executed name = 'Lizz', what would be the output of print(name[0:2])?
+name = 'Lizz'
+print(name[0:2])  # Esto imprimirá 'Li', que son los caracteres
+# en las posiciones 0 y 1 del string 'Lizz' (el índice 2 no se incluye).
+
+# In Python, if you executed var = '01234567', what would be the result of print(var[::2])?
+var = '01234567'
+print(var[::2])  # Esto imprimirá '0246', que son los caracteres
+# en las posiciones pares del string '01234567' (índices 0, 2, 4, 6).
+
+# In Python, what is the result of the following operation '1'+'2'?
+result = '1' + '2'
+print(result)  # Esto imprimirá '12', que es la concatenación de las cadenas '1' y '2'.
+
+# Given myvar = 'hello', how would you convert myvar into uppercase?
+myvar = 'hello'
+uppercase_var = myvar.upper()
+print(uppercase_var)  # Esto imprimirá 'HELLO', que es la versión en mayúsculas de la cadena 'hello'.
