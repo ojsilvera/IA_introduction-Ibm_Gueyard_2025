@@ -115,3 +115,46 @@ y=y+1
 # The output of the code is:
 # 1
 # 2
+
+# functions
+
+# Function Definition
+# def function_name(parameters):
+#     # code to execute when the function is called
+#     return value
+
+# Example:
+def greet(name):
+    return f"Hello, {name}!"
+print(greet("Alice"))
+
+# quiz
+
+# What is the value of c after the following block of code is run ?
+
+a=1
+
+def add(b):
+
+    return a+b
+
+c=add(10)
+
+# The value of c after the code is run is 11.
+
+# What is the value of c after the following block of code is run with proper numerical input?
+
+def f(*x):
+
+    return sum(x)
+
+print(f(5, 3, 4))
+
+# Return the total of a variable amount of parameters.
+# Return the total of a list.
+# The function is not valid.
+
+# The function f is valid and it takes a variable number of arguments (using *x)
+# and returns the sum of those arguments using the built-in sum() function.
+
+
