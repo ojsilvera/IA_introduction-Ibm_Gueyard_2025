@@ -11,6 +11,18 @@ print(type('Hello, World!'))
 result = 5 + 3
 print(result)  # Esto imprimirá 8, que es la suma de 5 y 3.
 
+# expresion matemática simple de resta
+result = 10 - 4
+print(result)  # Esto imprimirá 6, que es la resta de 10 y 4.
+
+# expresion matemática simple de multiplicación
+result = 7 * 6
+print(result)  # Esto imprimirá 42, que es el producto de 7 y 6.
+
+# expresion matemática simple de división
+result = 20 / 5
+print(result)  # Esto imprimirá 4.0, que es el resultado de dividir 20 entre 5.
+
 # variables y asignación
 x = 10
 y = 20
@@ -26,4 +38,23 @@ last_name = 'Doe'
 full_name = first_name + ' ' + last_name
 print(full_name)
 
+# obtener los pares del siguiente string
+text = "0123456"
+
+# Esto imprimirá '0246', que son los caracteres en las posiciones pares del string.
+
+even_index_chars = text[::2]
+print(even_index_chars)
+
+# cual seria la salida de la siguiente expresión
+result = "0123456".find('1')
+# Esto imprimirá 1, que es el índice de la primera aparición del carácter '1' en el string "0123456".
+print(result)
+
+# ejercicios propuesto quiz 1
+
+# el resultado para la siguiente operacion
+
+op = 3 + 2 * 2
+print(op)  # Esto imprimirá 7, que es el resultado de la operación 3+2*2 (siguiendo el orden de operaciones)
 
