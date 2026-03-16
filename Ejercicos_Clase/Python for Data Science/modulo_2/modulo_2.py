@@ -152,3 +152,48 @@ print(result)
 D = {'a':0,'b':1,'c':2}
 resultKey = D['b']
 print(resultKey)
+
+# quiz review
+
+# What is the syntax used to obtain the first element of the tuple:
+
+A = ('a','b','c')
+
+print(A[0])  # acceso al primer elemento de la tupla
+
+# true or false, After applying the following method, L.append(['a','b']), the following list will only be one element longer.
+
+L = [1, 2, 3]
+L.append(['a', 'b'])
+
+print(L)
+
+# la lista L ahora contiene el elemento [1, 2, 3, ['a', 'b']], por lo
+# que es un elemento más larga, pero el elemento añadido es una lista, no dos elementos separados.
+# Por lo tanto, la afirmación es verdadera
+
+# How many duplicate elements can you have in a set?
+# En un set no se pueden tener elementos duplicados, por lo que el número de
+# elementos duplicados en un set es cero.
+# Si intentas añadir un elemento que ya existe en el set, simplemente no se añadirá
+# y el set permanecerá sin cambios.
+
+# Consider the following Python dictionary:
+
+Dict={"A":1,"B":"2","C":[3,3,3],"D":(4,4,4),'E':5,'F':6}
+
+# What is the result of the following operation: Dict["D"]?
+# The result of Dict["D"] will be the value associated with the key "D" in the
+# dictionary Dict. In this case, the value is the tuple (4, 4, 4). So the output will be: (4, 4, 4)
+
+# What is an important difference between lists and tuples?
+# Lists can't contain a string.
+# Tuples can only have integers.
+#Lists and tuples are the same.
+# Lists are mutable, tuples are not.
+# There are no zeros in lists.
+
+# The important difference between lists and tuples is that lists are mutable,
+# meaning they can be modified after their creation, while tuples are immutable,
+# meaning they cannot be modified after their creation. This means that you can add,
+# remove, or change elements in a list, but you cannot do the same with a tuple.
