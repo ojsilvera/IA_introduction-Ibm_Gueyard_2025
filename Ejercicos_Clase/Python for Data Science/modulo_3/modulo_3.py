@@ -64,3 +64,54 @@ else:
 # "This is a."
 
 # The output of the code is: "This is a."
+
+# Loops
+# For Loop
+# For variable in iterable:
+#     # code to execute for each item in the iterable
+
+# Example:
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+
+# While Loop
+# While condition:
+#     # code to execute as long as condition is true
+
+# Example:
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+
+# quiz
+
+# What is the output of the following lines of code:
+
+A=[3,4,5]
+
+for a in A:
+
+    print(a)
+
+# The output of the code is:
+# 3
+# 4
+# 5
+
+# What is the output of the following lines of code:
+
+x=3
+
+y=1
+
+while(y!=x):
+
+    print(y)
+
+y=y+1
+
+# The output of the code is:
+# 1
+# 2
