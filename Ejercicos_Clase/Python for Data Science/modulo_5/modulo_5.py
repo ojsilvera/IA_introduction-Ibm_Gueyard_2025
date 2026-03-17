@@ -78,3 +78,59 @@ print(operacion)
 # 0
 
 # la respuesta correcta es: 0
+
+# Numpy 2D Arrays
+
+# How many rows are in the following numpy array?
+
+A = np.array([[1,2],[3,4],[5,6],[7,8]])
+
+#2
+# 4
+# 6
+
+# la respuesta correcta es: 4
+
+# Is it possible to perform the following operation?
+
+A = np.array([[1,2],[3,4],[5,6],[7,8]])
+B = np.array([[1,2,3],[4,5,6],[7,8,9]])
+np.dot(A,B)
+
+# Yes
+# No
+
+# la respuesta correcta es: No
+
+# simple apis - apis simples
+# Las APIs simples son interfaces de programación de aplicaciones que proporcionan
+# una forma fácil y directa de interactuar con un servicio o una biblioteca. Estas
+# APIs están diseñadas
+# para ser intuitivas y fáciles de usar, lo que permite a los desarrolladores acceder
+# a funcionalidades específicas sin tener que preocuparse por la complejidad subyacente.
+# Las APIs simples suelen tener una sintaxis clara y concisa, lo que facilita su
+# comprensión y uso. Estas APIs pueden ser utilizadas por desarrolladores de todos
+# los niveles de experiencia, ya que no requieren un conocimiento profundo de la
+# implementación interna del servicio o la biblioteca.
+# Las APIs simples son comunes en el desarrollo de software, ya que permiten a los
+# desarrolladores integrar fácilmente funcionalidades específicas en sus aplicaciones
+# sin tener que reinventar la rueda. Por ejemplo, una API simple para acceder a
+# datos de # una base de datos podría proporcionar métodos para realizar consultas
+# básicas, mientras que una API simple para un servicio web podría ofrecer métodos
+# para enviar solicitudes y recibir respuestas de manera sencilla.
+
+# ejemplo de una API simple para acceder a datos de una base de datos:
+class DatabaseAPI:
+    def __init__(self, connection_string):
+        self.connection_string = connection_string
+        # Aquí se establecería la conexión a la base de datos
+
+    def query(self, sql_query):
+        # Aquí se ejecutaría la consulta SQL y se devolverían los resultados
+        return "Resultados de la consulta: " + sql_query
+# Uso de la API simple
+db_api = DatabaseAPI("mi_conexion_a_la_base_de_datos")
+resultados = db_api.query("SELECT * FROM usuarios")
+print(resultados)
+# En este ejemplo, la clase DatabaseAPI proporciona una API simple para interactuar con una base de datos. El método query permite a los desarrolladores ejecutar consultas SQL de manera sencilla, sin tener que preocuparse por los detalles de la conexión o la ejecución de la consulta.
+
